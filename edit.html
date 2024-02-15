@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Design by foolishdeveloper.com -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="/form.css">
+        <title>Document</title>
+        <style>
+    .title{
+        width: 400px;
+        height: 50px;
+        padding: 9px;
+        }
+</style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="registration_form">
+                <div class="title">
+                    Edit User
+                </div>
+
+                    <form method='post' action='/edit_submit'>
+
+                    <input type='text' name='old_name' value='{{ name }}'hidden><br>
+                    <input type='text' name='old_phone' value='{{ phone }}'hidden><br>
+                    <div class="form_wrap">
+                        <div class="input_wrap">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" value='{{ name }}' required>
+                        </div>
+                        <div class="input_wrap">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" value='{{ phone }}' required>
+                            <!-- pattern="[0-9]{10}" -->
+                        </div>
+
+                        <div class="input_wrap">
+                            <input type="submit" value="SUBMIT"
+                                class="submit_btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <footer>
+            <p>&copy; 2024 Your Python Website</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+<!-- <body>
+        <div class="wrapper">
+            <div class="registration_form">
+                <div class="title">
+                    Edit your data
+                </div>
+
+                <form method='post' action='/edit_submit'>
+                    <div class="form_wrap">
+
+                        <div class="input_wrap">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input_wrap">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <!-- pattern="[0-9]{10}"
+                        </div>
+
+                        <div class="input_wrap">
+                            <input type="submit" value="SUBMIT" class="submit_btn">
+                        </div>
+
+                        <a href="/list">Go to User List</a>
+                    </div>
+
+                </form>
+            </div>
+            
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Your Python Website</p>
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body> -->

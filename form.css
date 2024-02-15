@@ -1,0 +1,124 @@
+/* 
+form {
+   
+} 
+
+h4{
+    margin-bottom: 11px;
+    color: #d00000;
+    
+}
+input{
+    background-color:#80ed99 ;
+    color: #1b263b;
+    font-size: 15px;
+    border: 2px solid#415a77;
+}
+textarea{
+    background-color:#80ed99 ;
+    color: #1b263b;
+    font-size: 15px;
+    border: 2px solid#415a77;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body{
+    background: linear-gradient(
+       105deg,
+       #88beee ,
+       #0a2e73
+   );
+  }
+  
+  .wrapper{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .registration_form{
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .registration_form .title{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background:rgb(13, 98, 215);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: -25px;
+    margin-left:-25px;
+    margin-right:-25px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  
+  .form_wrap{
+    margin-top: 35px;
+  }
+  
+  .form_wrap .input_wrap{
+    margin-bottom: 15px;
+  }
+  
+  
+  .form_wrap .input_grp  input[type="text"]{
+    width: 165px;
+  }
+  
+  .form_wrap  input[type="text"] {
+    width: 100%;
+    border-radius: 3px;
+    border: 1.3px solid #9597a6;
+    padding: 10px;
+    outline: none;
+  }
+  .form_wrap  input[type="tel"]{
+    width: 100%;
+    border-radius: 3px;
+    border: 1.3px solid #9597a6;
+    padding: 10px;
+    outline: none;
+  }
+
+
+  .form_wrap .submit_btn{
+    width: 100%;
+    background: #0d6ad7;
+    padding: 10px;
+    border: 0;
+    color:white;
+    font-size:17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .form_wrap .submit_btn:hover{
+    background: #051c94;
+  }
+  a {
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+  footer{
+    text-align: center;
+    background-color: #1a1a1f;
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 97px;
+  }

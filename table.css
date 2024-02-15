@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    background-color: beige;
+}
+  
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+    border-radius: 3px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+th{
+    color: black;
+}
